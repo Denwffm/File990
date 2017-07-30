@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+
+	<title>FILE990</title>
+
+	<!-- Данное значение часто используют поисковые системы, заполняем ответственно -->
+	<meta name="description" content="" />
+
+	<!-- Адаптируем страницу для мобильных устройств -->
+	<meta name="viewport" content="width=device-width, maximum-scale=2.0" />
+
+	<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- Иконка сайта для устройств от Apple, рекомендуемый размер 114x114, прозрачность не поддерживается -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+	<!-- Подключаем файлы стилей -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- Скрипты -->
+	<script type="text/javascript" src="js/modernizr.custom.js"></script> <!-- Определение возможностей браузера -->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+<body class="for-contacts">
+	
+	<div class="wrapper with-footer">
+		
+		<header class="header-color">
+			<a href="index.html" class="logo"><img src="images/logo-dark.svg" alt="" /></a>
+			<nav>
+				<ul class="menu-list">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="enterprise.html">Enterprise</a></li>
+					<li><a href="contacts.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<div class="enter-block">
+				<a href="signup.html" class="login-link">Login</a>
+				<a href="signup.html" class="btn btn-white signup-btn"><span>Sign up</span></a>
+			</div>
+			<div class="hamburger-block">
+				<a href="#" class="hamburger-link js-hamburger-link"></a>
+			</div>
+			<div class="hamburger-menu" id="hamburgerMenu">
+				<ul>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="enterprise.html">Enterprise</a></li>
+					<li><a href="signup.html">Login</a></li>
+					<li><a href="signup.html">Sign up</a></li>
+				</ul>
+			</div>
+		</header>
+		
+		<section class="contacts-section">
+			<div class="inner">
+				<div class="contacts-card">
+					<div class="column">
+						<div class="map-wrap" style="background-image:url(images/contacts-img.jpg)">
+							<img src="images/contacts-img.jpg" alt="" />
+							<div class="map-wrap-title">Lexington <small>Kentucky</small></div>
+							<div class="contacts-map" id="contactsMap"></div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="contacts-unit">
+							<div class="contacts-unit-title">Contact Information</div>
+							<div class="contacts-unit-phone">
+								<span>Toll Free: 888-430-2253</span>
+								<span>Phone: (859) 309-3640</span>
+								<span>Fax: (859) 309-3642</span>
+							</div>
+							<div class="contacts-unit-email">
+								<a href="mailto:info@file990.org">info@file990.org</a>
+							</div>
+							<div class="contacts-unit-address">450 Old Vine Street, Suite #105 <br/>Lexington, KY 40507</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="copyright">&copy;File990.org</div>
+			<nav>
+				<ul class="menu-list">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="enterprise.html">Enterprise</a></li>
+					<li><a href="signup.html">Login</a></li>
+					<li><a href="signup.html">Sign up</a></li>					
+				</ul>
+			</nav>
+		</footer>
+	
+	</div>
+	
+	<script type="text/javascript">
+		var map;
+		var myLatLng = {lat: 38.038937, lng: -84.491011};
+		
+		function initMap() {
+			map = new google.maps.Map(document.getElementById('contactsMap'), {
+		    	center: myLatLng,
+				zoom: 17,
+				scrollwheel: false
+		  	});
+		  	
+		  	var marker = new google.maps.Marker({
+		    	position: myLatLng,
+				map: map
+		  	});
+		  	
+		  	google.maps.event.addDomListener(window, "resize", function() {
+				
+				google.maps.event.trigger(map, "resize");
+				map.setCenter(myLatLng); 
+			});
+		}
+
+		
+		
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX-TsfzoCjfekyTNHkyWM_nHYklXsClIQ&callback=initMap"></script>
+
+</body>
+</html>

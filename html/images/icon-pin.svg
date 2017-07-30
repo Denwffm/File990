@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nextstep-Filing-Officer" transform="translate(-392.000000, -648.000000)">
+            <g id="Group-7" transform="translate(355.000000, 114.000000)">
+                <g id="Group-11" transform="translate(38.000000, 535.000000)">
+                    <text id="PIN" font-family="GothamPro-Black, Gotham Pro" font-size="12" font-weight="700" fill="#EEC955">
+                        <tspan x="5.79" y="20">PIN</tspan>
+                    </text>
+                    <circle id="Oval" stroke="#EEC955" stroke-width="2" cx="16" cy="16" r="16"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+
+	<title>FILE990</title>
+
+	<!-- Данное значение часто используют поисковые системы, заполняем ответственно -->
+	<meta name="description" content="" />
+
+	<!-- Адаптируем страницу для мобильных устройств -->
+	<meta name="viewport" content="width=device-width, maximum-scale=2.0" />
+
+	<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- Иконка сайта для устройств от Apple, рекомендуемый размер 114x114, прозрачность не поддерживается -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+	<!-- Подключаем файлы стилей -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- Скрипты -->
+	<script type="text/javascript" src="js/modernizr.custom.js"></script> <!-- Определение возможностей браузера -->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+<body class="for-pricing">
+	
+	<div class="wrapper with-footer grey-bg">
+		
+		<header class="header-color">
+			<a href="index.html" class="logo"><img src="images/logo-dark.svg" alt="" /></a>
+			<nav>
+				<ul class="menu-list">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="enterprise.html">Enterprise</a></li>
+					<li><a href="contacts.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<div class="enter-block">
+				<a href="signup.html" class="login-link">Login</a>
+				<a href="signup.html" class="btn btn-white signup-btn"><span>Sign up</span></a>
+			</div>
+			<div class="hamburger-block">
+				<a href="#" class="hamburger-link js-hamburger-link"></a>
+			</div>
+			<div class="hamburger-menu" id="hamburgerMenu">
+				<ul>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="enterprise.html">Enterprise</a></li>
+					<li><a href="signup.html">Login</a></li>
+					<li><a href="signup.html">Sign up</a></li>
+				</ul>
+			</div>
+		</header>
+		
+		<section class="pricing-section">
+			<div class="inner">
+				<h3>Simple Pricing</h3>
+				<div class="subtitle">Its free to get started. You don't pay until you are ready to file!</div>
+				<ul class="pricing-list">
+					<li>
+						<div class="decor-img decor-img-1"></div>
+						<div class="file-circle-wrap">
+							<div class="tilter-scale is-scaled">
+								<a href="#" class="tilter">
+									<figure class="tilter__figure">
+										<div class="tilter__deco tilter__deco--shine"><div></div></div>
+										<div class="tilter__deco tilter__deco--overlay"></div>
+										<figcaption class="tilter__caption">
+											<p class="tilter__description">990N</p>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+						<div class="price">$39.95 <small>per filling</small></div>
+						<p class="details"><span>eFilling Included</span><span>Accessible Anytime</span></p>
+						<a href="#" class="btn btn-fullwidth btn-with-icon"><span>Get started now</span> <i class="icon-doc"></i></a>
+					</li>
+					<li>
+						<div class="decor-img decor-img-2"></div>
+						<div class="file-circle-wrap">
+							<div class="tilter-scale tilter-scale-top is-scaled">
+								<a href="#" class="tilter tilter-light">
+									<figure class="tilter__figure">
+										<div class="tilter__deco tilter__deco--shine"><div></div></div>
+										<div class="tilter__deco tilter__deco--overlay"></div>
+										<figcaption class="tilter__caption">
+											<p class="tilter__description">990N</p>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+						<div class="price">$49.95 <small>per filling</small></div>
+						<p class="details"><span>eFilling Included</span><span>Accessible Anytime</span></p>
+						<a href="#" class="btn btn-fullwidth btn-with-icon"><span>Get started now</span> <i class="icon-doc"></i></a>
+					</li>
+				</ul>
+			</div>
+		</section>	
+		
+		<footer>
+			<div class="copyright">&copy;File990.org</div>
+			<nav>
+				<ul class="menu-list">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="enterprise.html">Enterprise</a></li>
+					<li><a href="signup.html">Login</a></li>
+					<li><a href="signup.html">Sign up</a></li>					
+				</ul>
+			</nav>
+		</footer>
+	
+	</div>
+	
+	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/anime.min.js"></script>
+	<script type="text/javascript" src="js/tilter.js"></script>
+	<script type="text/javascript">
+		
+		var isMobileDevice = false;
+		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) isMobileDevice = true;
+
+		(function() {
+			var tiltSettings = [
+			{
+				movement: {
+					caption : {
+						translation : {x: 5, y: 5, z: 0},
+						reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+					},
+					overlay : {
+						translation : {x: 10, y: 10, z: 30},
+						rotation : {x: 0, y: -10, z: 0},
+						reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+					}
+				}
+			
+			}];
+
+			function init() {
+				var idx = 0;
+				[].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
+					idx = pos%2 === 0 ? idx+1 : idx;
+					new TiltFx(el, tiltSettings[idx-1]);
+				});
+			}
+
+			if(isMobileDevice) {
+				return false;
+			} else {
+				init();
+			}
+			
+
+		})();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+
+	<title>FILE990</title>
+
+	<!-- Данное значение часто используют поисковые системы, заполняем ответственно -->
+	<meta name="description" content="" />
+
+	<!-- Адаптируем страницу для мобильных устройств -->
+	<meta name="viewport" content="width=1264, maximum-scale=2.0" />
+
+	<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- Иконка сайта для устройств от Apple, рекомендуемый размер 114x114, прозрачность не поддерживается -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+	<!-- Подключаем файлы стилей -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- Скрипты -->
+	<script type="text/javascript" src="js/modernizr.custom.js"></script> <!-- Определение возможностей браузера -->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/dropzone.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+<body class="for-application">
+
+	<div class="wrapper">
+		
+		<header>
+			<a href="index.html" class="logo"><img src="images/logo.svg" alt="" /></a>
+	
+			<div class="right-block">
+				<a href="#" class="help-link">Help</a>
+				<div class="account-wrap js-dropdown-wrap">
+					<a href="#" class="account-link js-dropdown-link">michaeljbollinger@gmail.com</a>
+					<div class="account-block js-dropdown-block">
+						<div class="user-panel table">
+							<div class="cell">
+								<div class="user-avatar"><i class="icon-person"></i></div>
+							</div>
+							<div class="cell">
+								<div class="user-details">
+									<div class="username">Michel Bollinger</div>
+									<a href="#" class="edit-link">Edit Account</a>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="signout-link">Sign Out</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section class="app-container">
+			<div class="main-content main-content-l">
+				<div class="heading-with-btn">
+					<h3 class="white">Legacy Financial</h3>
+					<div class="for-popup-link">
+						<a href="#" class="btn btn-medium btn-with-icon btn-with-shadow js-add-popup-link"><span>Add new group</span> <i class="icon-plus"></i></a>
+					</div>
+				</div>
+				<div class="module-groups">
+					<div class="module-groups-head">
+						<div class="module-groups-top">
+							<div class="checkbox-module">
+								<label class="checkbox">All<input type="checkbox" /></label>
+								<label class="checkbox">2015<input type="checkbox" /></label>
+								<label class="checkbox">2014<input type="checkbox" /></label>
+								<label class="checkbox">2013<input type="checkbox" /></label>
+								<label class="checkbox">2012<input type="checkbox" /></label>
+							</div>
+							<div class="right-panel">
+								<div class="tags-module">
+									<label class="tag tag-orange">Never filled<input type="checkbox" /></label>
+									<label class="tag">Revoked<input type="checkbox" /></label>
+									<label class="tag">No IRS Entry<input type="checkbox" /></label>
+								</div>
+								<div class="actions-wrap js-dropdown-wrap">
+									<a href="#" class="actions-link js-dropdown-link">Actions</a>
+									<div class="actions-block js-dropdown-block">
+										<ul class="actions-list">
+											<li>
+												<a href="#"><i class="icon-mail"></i>Send filing reminder</a>
+											</li>
+											<li>
+												<a href="#"><i class="icon-revoked"></i>Send reinstatement information</a>
+												<div class="text">only allowed if revoked group is selected</div>
+											</li>
+											<li>
+												<a href="#"><i class="icon-filegreen"></i>File 990N</a>
+												<div class="text">for groups</div>
+											</li>
+										</ul>
+									</div>
+								</div>							
+							</div>						
+						</div>
+						<div class="module-groups-bottom">
+							<label class="for-input with-input-icon"><i class="icon-zoom"></i><input type="text" /></label>
+						</div>
+					</div>
+					<div class="module-groups-body">
+						<div class="groups-total">1290 groups</div>
+						<table class="groups-table">
+							<tr>
+								<th>Group name</th>
+								<th>Status</th>
+								<th>EIN</th>
+								<th>Last Period</th>
+								<th>Contact</th>
+								<th class="align-right">Select</th>
+							</tr>
+							<tr>
+								<td>Alpha Omega Colony</td>
+								<td><div class="status-tag status-tag-blue">current</div></td>
+								<td><div class="number">464037701 <a href="#" class="edit-icon-link"></a></div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block for-popup-link">
+										<a href="#" class="edit-icon-link js-edit-contacts-popup-link"></a>
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+							<tr>
+								<td>Alpha Omega Colony</td>
+								<td><div class="status-tag status-tag-orange">1 year past due</div></td>
+								<td><div class="number">464037701</div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block">
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+							<tr>
+								<td>PKP 990NZ</td>
+								<td><div class="status-tag status-tag-yellow">revoked</div></td>
+								<td><div class="number">464037701</div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block">
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+							<tr>
+								<td>Alpha Omega Colony</td>
+								<td><div class="status-tag status-tag-blue">current</div></td>
+								<td><div class="number">464037701</div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block">
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+							<tr>
+								<td>Alpha Omega Colony</td>
+								<td><div class="status-tag status-tag-blue">current</div></td>
+								<td><div class="number">464037701</div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block">
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+							<tr>
+								<td>Alpha Omega Colony</td>
+								<td><div class="status-tag status-tag-blue">current</div></td>
+								<td><div class="number">464037701</div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block">
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+							<tr>
+								<td>Alpha Omega Colony</td>
+								<td><div class="status-tag status-tag-blue">current</div></td>
+								<td><div class="number">464037701</div></td>
+								<td>08/2016</td>
+								<td>
+									<div class="contacts-block">
+										<ul class="contacts-list">
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+											<li>Connor A. Sullivan  <a href="mailto:cs041011@ohio.edu">cs041011@ohio.edu</a></li>
+										</ul>
+									</div>
+								</td>
+								<td class="align-right"><label class="checkbox only-checkbox"><input type="checkbox" /></label></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section id="shadow"></section>
+		<section class="popup js-add-popup">
+			<div class="container">
+				<a href="#" class="close-popup"></a>
+				<div class="popup-head">
+					<div class="popup-panel">
+						<div class="type-circle type-circle-green">990</div>
+						<div class="popup-descr">
+							<div class="title">Add Groups</div>
+							Track additional groups in your HQ Dashboard by filling out the form below or uploading an excel file for multiple groups.
+						</div>
+					</div>
+				</div>
+				<div class="popup-body popup-body-no-padding">
+					<div class="add-module">
+						<div class="add-module-fields">
+							<ul class="fields-list">
+								<li>
+									<label class="with-plholder with-icon"><i class="icon-number"></i><span class="plholder">EIN Number</span><input type="text" /></label>
+								</li>
+								<li>
+									<label class="with-plholder with-icon"><i class="icon-user"></i><span class="plholder">Preferred Name</span><input type="text" /></label>
+								</li>
+								<li>
+									<label class="with-plholder with-icon"><i class="icon-email"></i><span class="plholder">Email</span><input type="text" /></label>
+								</li>
+							</ul>
+							<form action="/file-upload" class="dropzone" id="fileDropzone">
+								<div class="dz-message file-upload-wrap">
+									<i class="icon-excel"></i>
+									<p><small>or</small>Drag and drop Exel file </p>
+									<a href="#">Choose file</a>
+								</div>
+							</form>
+						</div>
+						<a href="#" class="btn btn-fixedwidth btn-with-icon btn-with-shadow btn-with-margin"><i class="icon-arrow"></i><span>Next</span></a>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</section><!-- end popup-->
+
+		<section class="popup popup-absolute popup-wide js-edit-contacts-popup">
+			<div class="container">
+				<a href="#" class="close-popup"></a>
+				<div class="popup-head popup-head-center popup-head-auto">
+					<h5>Alpha Omega Colony</h5>
+					<a href="#" class="btn btn-fixedwidth"><span>Upload Exel file</span></a>
+				</div>	
+				<div class="popup-body">
+					<div class="edit-contacts-wrap">
+						<a href="#" class="add-contact-link">+ Add a new contact</a>
+						<div class="edit-contacts-unit">
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">1.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">2.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">3.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">4.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">5.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">6.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">7.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">8.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">9.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">10.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">11.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"><span class="edit-contacts-digit">12.</span></div>
+								<div class="cell">
+									<label class="for-input left"><input type="text" value="Connor A. Sullivan" /></label>
+									<label class="for-input right"><input type="text" value="cs041011@ohio.edu" /></label>
+									<a href="#" class="delete-link"></a>
+								</div>
+							</div>
+							<div class="edit-contacts-item">
+								<div class="cell"></div>
+								<div class="cell">
+									<div class="btn-wrap">
+										<a href="#" class="btn btn-ultramarine">Save Changes</a>
+										<a href="#" class="btn btn-grey">Cancel</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</section>
+
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.72631789%" y1="50%" x2="98.2083068%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#69DDD9" offset="0%"></stop>
+            <stop stop-color="#12B6CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="5.87172086%" x2="50%" y2="0.303455317%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.75" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.35" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.65" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="353" y="1121" width="889" height="431" rx="10"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.364705882   0 0 0 0 0.388235294   0 0 0 0 0.454901961  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#A2A3E7" offset="0%"></stop>
+            <stop stop-color="#7374C7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-665.000000, -1171.000000)">
+            <g id="Group-2" transform="translate(-6.000000, 68.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="2.38202247" y="0" width="1905.61798" height="1283"></rect>
+                <rect id="Rectangle" fill-opacity="0.15" fill="#3A9BA3" x="0" y="0" width="1905.61798" height="1283"></rect>
+            </g>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" cx="-0.5" cy="2934.87" rx="5931.5" ry="2244.87"></ellipse>
+            <ellipse id="Oval-Copy" fill="url(#linearGradient-3)" cx="2174.5" cy="2908.87" rx="5931.5" ry="2244.87"></ellipse>
+            <polygon id="Rectangle-18" fill="#F2F9FB" points="8 1450.57703 1908 1223 1908 3443.01562 8 3443.01562"></polygon>
+            <g id="Rectangle-17" opacity="0.9">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+            <g id="Group-29" transform="translate(665.000000, 1171.000000)">
+                <circle id="Oval-5-Copy" fill="#A2A3E7" cx="28" cy="28" r="28"></circle>
+                <rect id="Rectangle-8" fill-opacity="0.65" fill="url(#linearGradient-6)" x="8" y="19" width="25" height="18"></rect>
+                <path d="M32.8358543,37.3196137 C31.875431,37.8598517 31.0968541,37.4032378 31.0968541,36.3044828 L31.0968541,20.0791334 C31.0968541,18.978254 31.8688397,18.5200568 32.8358543,19.0640026 L47.324064,27.2136205 C48.2844873,27.7538586 48.2910786,28.62605 47.324064,29.1699957 L32.8358543,37.3196137 Z" id="Triangle-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

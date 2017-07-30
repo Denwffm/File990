@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="107px" height="76px" viewBox="0 0 107 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 33</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="158.496094%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.75" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F2F1F2" offset="0%"></stop>
+            <stop stop-color="#DFDEDF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-1065.000000, -3844.000000)">
+            <g id="Group-33" transform="translate(1065.000000, 3844.000000)">
+                <rect id="Rectangle-21-Copy" fill="#45B5F2" x="0" y="12" width="107" height="64" rx="4"></rect>
+                <rect id="Rectangle-31" fill="url(#linearGradient-1)" x="19" y="6" width="71" height="70"></rect>
+                <rect id="Rectangle-31" fill="url(#linearGradient-2)" x="18.5" y="0" width="71" height="6"></rect>
+                <g id="Group-28" transform="translate(37.000000, 11.000000)">
+                    <circle id="Oval-7" fill="#0083C9" cx="18" cy="18" r="18"></circle>
+                    <text id="EIN" font-family="GothamPro-Black, Gotham Pro" font-size="12" font-weight="700" fill="#FFFFFF">
+                        <tspan x="7" y="22">EIN</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-32" fill="#1CBACB" x="28" y="53" width="54" height="16" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
